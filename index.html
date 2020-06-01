@@ -7,9 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
- 
-
+    <link rel="stylesheet" href="custom.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -20,10 +18,10 @@
     <nav>
         <div class="nav-wrapper blue">
             <div class="container">
-                <a href="#" class="brand-logo">TraCalorie</a>
+                <a href="#" class="brand-logo left">TraCalorie</a>
                 <ul class="right">
                     <li>
-                        <a href="#" class="clear-btn btn blue lighten-3">Clear All</a>
+                        <a href="#" class="clear-btn btn grey darken-2">Clear All</a>
                     </li>
                 </ul>
             </div>
@@ -46,10 +44,25 @@
                             <input type="number" placeholder="Add Calories" id="item-calories">
                             <label for="item-name">Calories</label>
                     </div>
-                    <button class="add-btn btn blue darken-3"><i class="fa fa-plus"></i> Add Meal</button>
-                    <button class="update-btn btn brown lighten-2"><i class="fa fa-pencil-square-o"></i> Update Meal</button>
-                    <button class="delete-btn btn grey darken-1"><i class="fa fa-remove"></i> Delete Meal</button>
-                    <button class="back-btn btn green darken-3 pull-right"><i class="fa fa-chevron-circle-left"></i> Back</button>
+                    <div class="row">
+                        <div class="col s12 m4 l4">
+                            <button class="add-btn btn md-btn-block blue darken-3"><i class="fa fa-plus"></i> Add Meal</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s6 m4 l4">
+                            <button class="update-btn btn sm-btn-block md-btn-block teal lighten-2"><i class="fa fa-pencil-square-o"></i> Update Meal</button>
+                        </div>
+                        <div class="col s6 m4 l4">
+                            <button class="delete-btn btn sm-btn-block md-btn-block red darken-3"><i class="fa fa-remove"></i> Delete Meal</button>
+                        </div>
+                        <div class="col s12 m4 l4">
+                            <button class="back-btn btn sm-btn-block md-btn-block green darken-3 sm-mt-1"><i class="fa fa-chevron-circle-left"></i> Back</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                    </div>
                 </div>
                 </form>
             </div>

@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px){
+    .sm-btn-block{
+        width:100%;
+    }
+    .sm-mt-1{
+        margin-top:1rem;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .md-btn-block{
+        width:100%;
+    }
+}
+
+body{
+    background: #56ab2f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+}
